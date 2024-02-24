@@ -18,9 +18,10 @@ body {
 }
 
 .title_main {
-  font-size: 36px;
+  font-size: 50px;
   text-transform: uppercase;
   padding: 20px;
+  font-family: "Montserrat", sans-serif;
 }
 
 .main_dis {
@@ -104,9 +105,9 @@ body {
 
 .animate {
   animation-name: shakeIt;
-  animation-duration: 2.49s;
+  animation-duration: 1.49s;
   animation-iteration-count: 1;
-  animation-timing-function: ease;
+  animation-timing-function: ease-in-out;
   animation-fill-mode: forwards;
 }
 
@@ -120,11 +121,16 @@ input {
   top: 78vh;
   padding: 15px 50px 15px 15px;
   font-size: 15px;
-  border-radius: 30px;
+  border-radius: 50px;
   text-align: left;
   cursor: pointer;
+  background-color: white;
 }
 
+
+input:hover{
+background-color: wheat;
+}
 button {
   margin: auto;
   position: absolute;
@@ -138,7 +144,15 @@ button {
 }
 
 button:hover {
-  background-color: rgb(85, 0, 85);
+  background-color: black;
+}
+
+.title_main  #Owner {
+        font-family: "Montserrat", sans-serif;
+        text-align: center;
+        text-transform: uppercase;
+        font-size: 10px;
+    
 }
 
 @keyframes shakeIt {
